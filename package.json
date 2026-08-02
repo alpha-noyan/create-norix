@@ -3,8 +3,13 @@
   "version": "1.0.0",
   "description": "Create production-ready Express backends with Norix",
   "bin": {
-    "create-norix": "./bin/index.js"
+    "create-norix": "bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alpha-noyan/create-norix.git"
+  },
+  "homepage": "https://github.com/alpha-noyan/create-norix#-create-norix",
   "type": "commonjs",
   "keywords": [
     "express",
