@@ -30,6 +30,8 @@ program
 
       console.log(`cd ${projectName}`);
 
+      console.log("Confirm the .env file and update the values if needed.");
+
       if (!config.installDependencies) {
         console.log("npm install");
       }

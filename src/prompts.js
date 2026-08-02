@@ -53,12 +53,12 @@ async function askQuestions() {
     {
       type: "input",
       name: "emailUser",
-      message: "Email(You can enter it later in env):",
+      message: "SMTP Email(You can enter it later in env):",
     },
     {
       type: "password",
       name: "emailPass",
-      message: "Email Password(You can enter it later in env):",
+      message: "SMTP Email Password(You can enter it later in env):",
     },
     {
       type: "confirm",
